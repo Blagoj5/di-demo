@@ -1,7 +1,6 @@
 package baze.springframework.didemo.controllers;
 
-import baze.springframework.didemo.services.GreetingService;
-import baze.springframework.didemo.services.GreetingServiceimpl;
+import baze.services.GreetingServiceimpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

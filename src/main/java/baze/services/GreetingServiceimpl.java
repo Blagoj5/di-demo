@@ -1,4 +1,4 @@
-package baze.springframework.didemo.services;
+package baze.services;
 
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
 package baze.springframework.didemo.controllers;
 
-import baze.springframework.didemo.services.GreetingServiceimpl;
+import baze.services.GreetingServiceimpl;
 import org.junit.Before;
 import org.junit.Test;
 

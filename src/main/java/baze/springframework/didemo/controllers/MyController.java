@@ -1,6 +1,6 @@
 package baze.springframework.didemo.controllers;
 
-import baze.springframework.didemo.services.GreetingService;
+import baze.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 @Controller

@@ -1,17 +1,18 @@
-package baze.springframework.didemo.services;
+package baze.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
+@Profile("mkd")
 @Primary
-@Profile("de")
-public class PrimaryGermanGreetingService implements GreetingService {
-
+public class PrimaryMacedonianGreetingService implements GreetingService{
 
     @Override
     public String sayGreeting() {
-        return "Hallo, alle miteinander !!! [de]";
+        return "Zdravo na site !!! [MKD]";
     }
+
+
 }

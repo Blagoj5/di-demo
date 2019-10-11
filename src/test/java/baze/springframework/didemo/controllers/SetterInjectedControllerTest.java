@@ -1,10 +1,8 @@
 package baze.springframework.didemo.controllers;
 
-import baze.springframework.didemo.services.GreetingService;
-import baze.springframework.didemo.services.GreetingServiceimpl;
+import baze.services.GreetingServiceimpl;
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.stereotype.Service;
 
 import static org.junit.Assert.assertEquals;
 
